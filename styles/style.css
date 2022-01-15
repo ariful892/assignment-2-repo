@@ -11,11 +11,15 @@
     padding-top: 10px;
     margin-top: 60px;
     margin-left: 180px;
+
+    
+    transition: width 3s ease-in;
 }
 .product-title:hover{
     background-color: #FFFFFF;
     color:rgb(255, 166, 0); 
     border: 1px solid rgb(255, 166, 0); 
+    width: 300px;
 }
 
 
@@ -136,6 +140,29 @@
 .more-item-btn a{
     text-decoration: none;
     color:rgb(255, 166, 0);
+}
+
+/* Contat details */
+.contact-details{
+    margin-top: 100px;
+    display: flex;
+}
+.contact-info{
+    width: 50%;
+    margin-right: 90px;
+}
+
+.contact-btn a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color:rgb(255, 166, 0);
+    border: 1px solid  rgb(255, 166, 0);
+    padding: 7px 15px;
+}
+.contact-details img{
+    width: 350px;
+    height: 220px;
 }
 
 /* Footer styles */
