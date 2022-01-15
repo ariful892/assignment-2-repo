@@ -1,4 +1,6 @@
-
+/*---------------------- 
+    Header style 
+------------------------ */
 .product-title{   
     font-family: 'Fira Sans', sans-serif;
     color: #FFFFFF;
@@ -11,8 +13,6 @@
     padding-top: 10px;
     margin-top: 60px;
     margin-left: 180px;
-
-    
     transition: width 3s ease-in;
 }
 .product-title:hover{
@@ -22,12 +22,14 @@
     width: 300px;
 }
 
-
+/*------------------------- 
+    Start journey 
+------------------------- */
 .start-journey{
     font-family: 'Poppins', sans-serif;
     margin-top: 50px;
     display: flex;
-    /* margin-left: 180px; */
+    
 }
 .intro-area{
     width: 600px;
@@ -62,7 +64,9 @@
     margin-left: 50px;
 }
 
-/* popular collection */
+/*--------------------------
+    popular collection
+--------------------------- */
 .product-intro-collection{
     margin-left: 180px;
 }
@@ -78,8 +82,7 @@
 }
 .product-items{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    
+    grid-template-columns: repeat(3,1fr);   
     grid-row-gap: 15px;
     grid-column-gap: 15px;
 }
@@ -142,7 +145,9 @@
     color:rgb(255, 166, 0);
 }
 
-/* Contat details */
+/*-------------------
+    Contat details
+--------------------- */
 .contact-details{
     margin-top: 100px;
     display: flex;
@@ -165,8 +170,10 @@
     height: 220px;
 }
 
-/* Footer styles */
-footer{
+/*--------------------- 
+    Footer styles
+--------------------- */
+.footer-area{
     text-align: center;
     width: 100%;
     margin-top: 100px;
@@ -181,3 +188,121 @@ footer p{
     margin-right: 20px;
     font-size: 14px;
 }
+
+/*----------------------
+     Media Queries
+---------------------- */
+
+/* Mobile device */
+@media only screen and (max-width: 688px) {
+    .product-title{
+        margin-left: 20px;
+    }
+    .start-journey{
+        display: block;  
+        margin-left: 0px;
+    }
+    .intro-area{
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .intro-title{
+        font-size: 30px;
+        width: 100%;
+    }
+    .intro-icon{
+        width: 300px;
+        height: 300px;
+        margin-top: 0px;
+    }
+
+    .product-intro-collection{
+        margin-left: 20px;
+    }
+    .popular-collection{
+        margin-top: 20px;
+    }
+    .collection-title{
+        text-align: left;
+        margin-left: 20px;
+        font-size: 25px;
+    }
+    .product-items{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .more-item-btn{
+        margin-top: 10px;
+        margin-right: 50px;
+    }
+
+    .contact-details{
+        margin-top: 60px;
+        margin-right: 30px;
+        display: block;
+       
+    }
+    .contact-info{
+        width: 100%;
+        margin-right: 90px;
+        margin-bottom: 20px;
+    }
+
+    .footer-area{ 
+        margin-top: 20px;
+    }
+}
+    /* Tablet devices */
+    @media only screen and (min-width:688px) and (max-width:992px){
+        .product-title{
+            margin-left: 20px;
+        }
+        .start-journey{
+            margin-left: 0px;
+        }
+        .intro-area{
+            width: 100%;
+            margin-bottom: 0;
+        }
+        .intro-title{
+            font-size: 30px;
+            width: 100%;
+        }
+        .booking-button{
+            margin-bottom: 0;
+        }
+        .intro-icon{
+            width: 300px;
+            height: 300px;
+            margin-top: 0px;
+        }
+    
+        .product-intro-collection{
+            margin-left: 20px;
+        }
+        .popular-collection{
+            margin-top: 20px;
+        }
+        .collection-title{
+            text-align: left;
+            margin-left: 20px;
+            font-size: 25px;
+        }
+        .product-items{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+        }
+        .more-item-btn{
+            margin-top: 10px;
+            margin-right: 410px;
+        }
+    
+        .contact-details{
+            margin-top: 80px;
+            margin-right: 30px;
+        }
+       
+        .footer-area{ 
+            margin-top: 20px;
+        }
+    }
