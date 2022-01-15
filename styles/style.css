@@ -52,16 +52,21 @@
     background-color: rgb(255, 166, 0);
     padding: 7px 15px;
     border-radius: 7px;
+    
 }
 .booking-button:hover{
     background-color: #FFFFFF;
     color:rgb(255, 166, 0); 
-    border: 1px solid rgb(255, 166, 0); 
+    border: 1px solid rgb(255, 166, 0);
 }
 .intro-icon{
     width: 550px;
     height: 415px;
     margin-left: 50px;
+    transition: transform 3s ;
+}
+.intro-icon:hover{
+    transform: rotate(180deg);
 }
 
 /*--------------------------
