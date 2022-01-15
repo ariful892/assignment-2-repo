@@ -1,8 +1,4 @@
-/* Common styles */
-body{
-    margin-top: 60px;
-    margin-left: 180px;
-}
+
 .product-title{   
     font-family: 'Fira Sans', sans-serif;
     color: #FFFFFF;
@@ -13,8 +9,8 @@ body{
     border-radius: 7px;
     text-align: center;
     padding-top: 10px;
-    
-
+    margin-top: 60px;
+    margin-left: 180px;
 }
 .product-title:hover{
     background-color: #FFFFFF;
@@ -22,10 +18,12 @@ body{
     border: 1px solid rgb(255, 166, 0); 
 }
 
+
 .start-journey{
     font-family: 'Poppins', sans-serif;
     margin-top: 50px;
     display: flex;
+    /* margin-left: 180px; */
 }
 .intro-area{
     width: 600px;
@@ -61,6 +59,9 @@ body{
 }
 
 /* popular collection */
+.product-intro-collection{
+    margin-left: 180px;
+}
 .popular-collection{
     margin-top: 150px;
     margin-right: 150px;
@@ -124,4 +125,32 @@ body{
 }
 .delevery-info span{
     display: block;
+}
+.more-item-btn{
+    position: absolute;
+    right: 0%; 
+    font-weight: bold;
+    margin-top: 30px;
+    margin-right: 150px;
+}
+.more-item-btn a{
+    text-decoration: none;
+    color:rgb(255, 166, 0);
+}
+
+/* Footer styles */
+footer{
+    text-align: center;
+    width: 100%;
+    margin-top: 100px;
+    background-color: rgba(3, 3, 46, 0.952);
+    color: #FFFFFF;   
+    padding: 20px;
+}
+footer p{
+    font-size: 14px;
+}
+.social-icon{
+    margin-right: 20px;
+    font-size: 14px;
 }
